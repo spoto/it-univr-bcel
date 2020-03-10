@@ -57,7 +57,7 @@ import it.univr.bcel.UninitializedObjectType;
  * of each single stack element and local variable at the instruction.
  * Instances of this class are immutable.
  * 
- * @author Fausto Spoto <fausto.spoto@univr.it>
+ * @author <a href="mailto:fausto.spoto@univr.it">Fausto Spoto</a>
  */
 class TypesImpl implements Types {
 	private final Type[] stack;

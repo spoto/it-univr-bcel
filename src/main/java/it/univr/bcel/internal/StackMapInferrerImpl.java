@@ -38,7 +38,7 @@ import it.univr.bcel.UninitializedObjectType;
 /**
  * An inference algorithm that recomputes the stack map for a method or constructor.
  * 
- * @author Fausto Spoto <fausto.spoto@univr.it>
+ * @author <a href="mailto:fausto.spoto@univr.it">Fausto Spoto</a>
  */
 public class StackMapInferrerImpl implements StackMapInferrer {
 

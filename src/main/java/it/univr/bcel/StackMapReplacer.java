@@ -24,7 +24,7 @@ import it.univr.bcel.internal.StackMapReplacerImpl;
  * An inference algorithm that recomputes the stack map for a method or constructor
  * and replaces its old stack map (if any) with the recomputed one.
  * 
- * @author Fausto Spoto <fausto.spoto@univr.it>
+ * @author <a href="mailto:fausto.spoto@univr.it">Fausto Spoto</a>
  */
 public interface StackMapReplacer {
 

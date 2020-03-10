@@ -31,7 +31,7 @@ import it.univr.bcel.internal.TypeInferrerImpl;
 /**
  * An inference algorithm for the static types at the instructions of a method or constructor.
  * 
- * @author Fausto Spoto <fausto.spoto@univr.it>
+ * @author <a href="mailto:fausto.spoto@univr.it">Fausto Spoto</a>
  */
 public interface TypeInferrer {
 
