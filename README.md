@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/it.univr.bcel/it-univr-bcel/badge.svg)](https://maven-badges.herokuapp.com/maven-central/it.univr.bcel/it-univr-bcel)
+
 # `it-univr-bcel`
 BCEL utilities for inferring types in Java bytecode and for recomputing stack maps for a method.
 A stack map is compulsory from Java bytecode version 50 and higher. It specifies types at specific
