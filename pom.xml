@@ -3,7 +3,7 @@
 
   <groupId>it.univr.bcel</groupId>
   <artifactId>it-univr-bcel</artifactId>
-  <version>1.3.0</version>
+  <version>1.2.1</version>
   <packaging>jar</packaging>
 
   <name>it-univr-bcel</name>
@@ -57,15 +57,15 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.6.1</version>
+          <version>3.11.0</version>
           <configuration>
             <release>9</release>
           </configuration>
         </plugin>
-	<plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>2.2.1</version>
+          <version>3.2.1</version>
           <executions>
             <execution>
             <id>attach-sources</id>
@@ -74,11 +74,11 @@
             </goals>
             </execution>
           </executions>
-	</plugin>
-	<plugin>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.9.1</version>
+          <version>3.5.0</version>
           <executions>
             <execution>
             <id>attach-javadocs</id>
@@ -87,11 +87,11 @@
             </goals>
             </execution>
           </executions>
-	</plugin>
-	<plugin>
+	    </plugin>
+	    <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.3</version>
+          <version>3.0.0</version>
           <configuration>
             <autoVersionSubmodules>true</autoVersionSubmodules>
             <useReleaseProfile>false</useReleaseProfile>
@@ -102,7 +102,7 @@
 	    <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.5</version>
+          <version>3.1.0</version>
           <executions>
             <execution>
             <id>sign-artifacts</id>
@@ -124,7 +124,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
-            <version>2.2.1</version>
+            <version>3.2.1</version>
             <executions>
               <execution>
                 <id>attach-sources</id>
@@ -137,7 +137,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
-            <version>3.1.1</version>
+            <version>3.5.0</version>
             <executions>
               <execution>
                 <id>attach-javadocs</id>
@@ -150,7 +150,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.5</version>
+            <version>3.1.0</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -161,17 +161,17 @@
               </execution>
             </executions>
           </plugin>
-	  <plugin>
+	      <plugin>
             <groupId>org.sonatype.plugins</groupId>
             <artifactId>nexus-staging-maven-plugin</artifactId>
-            <version>1.6.7</version>
+            <version>1.6.13</version>
             <extensions>true</extensions>
             <configuration>
               <serverId>ossrh</serverId>
               <nexusUrl>https://oss.sonatype.org/</nexusUrl>
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
             </configuration>
-	  </plugin>
+	      </plugin>
         </plugins>
       </build>
     </profile>
