@@ -1,4 +1,7 @@
+
+[![Java-Build Action Status](https://github.com/spoto/it-univr-bcel/workflows/Java-Build/badge.svg)](https://github.com/spoto/it-univr-bcel/actions)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/it.univr.bcel/it-univr-bcel/badge.svg)](https://maven-badges.herokuapp.com/maven-central/it.univr.bcel/it-univr-bcel)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 # `it-univr-bcel`
 BCEL utilities for inferring types in Java bytecode and for recomputing stack maps for a method.
